@@ -2,5 +2,26 @@
 temps = [223 , 440, 830, 845]
 new_temps = [temps /10 for temps in temps ]
 print(new_temps)
+__________________________________________________________________________
+# Asks info until the end and capitalises or put ? mark at the end
+def s_maker (phrase):
+    interrogatives =("how","why","who","what","when","where")
+    capitalized =phrase.capitalize()
+    if phrase.startswith(interrogatives):
+        return"{}?".format (capitalized)
+    else:
+         return"{}.".format (capitalized)
+
+results = []
+while True:
+    user_input = input ("Say something: ")
+    if user_input == "\end":
+        break
+    else:
+        results.append(s_maker(user_input))
+print(" ".join(results))
+__________________________________________________________________________
+
+
 
                 
