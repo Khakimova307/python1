@@ -1,3 +1,4 @@
+# deletes to 10 each item and returns to [22.3,44.0, 83.0.84.5]
 temps = [223 , 440, 830, 845]
 new_temps = [temps /10 for temps in temps ]
 print(new_temps)
