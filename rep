@@ -1,0 +1,5 @@
+temps = [223 , 440, 830, 845]
+new_temps = [temps /10 for temps in temps ]
+print(new_temps)
+
+                
